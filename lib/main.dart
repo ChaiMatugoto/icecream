@@ -88,7 +88,7 @@ class _IcecreamAppState extends State<IcecreamApp> {
   final submit = Center(child: FilledButton(onPressed: () => setState(() {
       order = Random().nextInt(999) + 1;
       receipt = '$food  ${foods[food]}円\n'
-          'フルーツ: ${fruits.isEmpty ? 'なし' : fruits.join(' ')}\n'
+          'トッピング: ${fruits.isEmpty ? 'なし' : fruits.join(' ')}\n'
            'デコレーション: ${deco == 'なし' ? 'なし' : '$deco × $decoCount'}\n'
           '🛍️ 紙袋: ${spoon ? 'あり' : 'なし'}\n'
           '🧻 紙ナプキン: ${napkin ? 'あり' : 'なし'}\n'
@@ -112,7 +112,7 @@ class _IcecreamAppState extends State<IcecreamApp> {
       child: ListView(padding: const EdgeInsets.all(16), children: [
           Center(child: photo),
         const Text('商品を選ぶ'), products,
-        const Text('フルーツトッピング（1種類100円）'), toppings,
+        const Text('トッピング（1種類100円）'), toppings,
          const Text('デコレーション（1個50円）'), decorations,
         const Text('無料サービス'), supplies,
         const Divider(),

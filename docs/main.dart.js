@@ -65267,10 +65267,10 @@ a1.push(A.agA(A.d([B.LT,r,q,A.abn(a0,a0,B.Ae,a0,a0,s<3?new A.a5e(a):a0,a0,a0,a0)
 a1=new A.a5i(a)
 e=A.Pc(A.d([a1.$3("\ud83d\udecd\ufe0f \u7d19\u888b(\u7121\u6599)",a.y,new A.a5f(a)),a1.$3("\ud83e\uddfb \u7d19\u30ca\u30d7\u30ad\u30f3\uff08\u7121\u6599\uff09",a.z,new A.a5g(a))],a2),B.aQ,B.b5)
 d=A.Pc(A.d([A.hD("\u7a0e\u629c "+n+" \u5186 / \u6d88\u8cbb\u7a0e "+m+" \u5186",a0,a0),A.hD("\u5408\u8a08 "+l+" \u5186",B.KN,a0)],a2),B.bk,B.b5)
-c=A.hY(new A.BZ(new A.a5h(a,n,m,l),a0,a0,a0,a0,B.M,a0,!1,a0,a0,B.LP,a0),a0,a0)
+c=A.hY(new A.BZ(new A.a5h(a,n,m,l),a0,a0,a0,a0,B.M,a0,!1,a0,a0,B.LQ,a0),a0,a0)
 a1=a.x
 b=a1===0?B.dD:new A.AA(new A.hn(B.ky,A.Pc(A.d([A.hD("\u6ce8\u6587\u756a\u53f7 #"+a1,B.JC,a0),A.hD(a.Q,a0,a0)],a2),B.aQ,B.b5),a0),a0)
-a1=A.d([A.hY(k,a0,a0),B.LO,j,B.LQ,g,B.LS,f,B.LR,e,B.zq,d,c,b],a2)
+a1=A.d([A.hY(k,a0,a0),B.LP,j,B.LO,g,B.LS,f,B.LR,e,B.zq,d,c,b],a2)
 a2=A.aI([null,0],t.LO,t.S)
 return new A.v3(new A.qA(B.LU,!0,new A.JZ(a0,a0,1/0,56),a0),A.hY(new A.f2(B.wU,new A.CO(new A.a05(!0,!0,!0,a1,a2),B.ky,B.bj,!1,a0,a0,B.wx,!1,a0,a0,13,B.bn,a0,a0,B.aw,B.ar,a0),a0),a0,a0),B.yJ,a0)}}
 A.a5m.prototype={
@@ -65341,7 +65341,7 @@ p=k.f
 p=p==="\u306a\u3057"?l:p+" \xd7 "+k.w
 o=k.y?"\u3042\u308a":l
 n=k.z?"\u3042\u308a":l
-k.Q=s+"  "+A.m(r)+"\u5186\n\u30d5\u30eb\u30fc\u30c4: "+q+"\n\u30c7\u30b3\u30ec\u30fc\u30b7\u30e7\u30f3: "+p+"\n\ud83d\udecd\ufe0f \u7d19\u888b: "+o+"\n\ud83e\uddfb \u7d19\u30ca\u30d7\u30ad\u30f3: "+n+"\n\u7a0e\u629c: "+m.b+" \u5186 / \u6d88\u8cbb\u7a0e\uff0810%\uff09: "+m.c+" \u5186\n\u5408\u8a08: "+m.d+" \u5186"},
+k.Q=s+"  "+A.m(r)+"\u5186\n\u30c8\u30c3\u30d4\u30f3\u30b0: "+q+"\n\u30c7\u30b3\u30ec\u30fc\u30b7\u30e7\u30f3: "+p+"\n\ud83d\udecd\ufe0f \u7d19\u888b: "+o+"\n\ud83e\uddfb \u7d19\u30ca\u30d7\u30ad\u30f3: "+n+"\n\u7a0e\u629c: "+m.b+" \u5186 / \u6d88\u8cbb\u7a0e\uff0810%\uff09: "+m.c+" \u5186\n\u5408\u8a08: "+m.d+" \u5186"},
 $S:0}
 A.rz.prototype={
 aH(a){var s,r,q=this.x,p=q.i(0,a)
@@ -70484,9 +70484,9 @@ B.KF=new A.o(!0,B.F,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.KX=new A.o(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity labelMedium",null,null,null,null)
 B.IE=new A.o(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.LN=new A.dg(B.K2,B.Jc,B.K3,B.Kp,B.IW,B.J3,B.Js,B.Kl,B.JD,B.KI,B.Ix,B.IM,B.KF,B.KX,B.IE)
-B.LO=new A.fg("\u5546\u54c1\u3092\u9078\u3076",null,null,null,null)
-B.LP=new A.fg("\ud83c\udf58\u6ce8\u6587\u3059\u308b\ud83c\udf58",null,null,null,null)
-B.LQ=new A.fg("\u30d5\u30eb\u30fc\u30c4\u30c8\u30c3\u30d4\u30f3\u30b0\uff081\u7a2e\u985e100\u5186\uff09",null,null,null,null)
+B.LO=new A.fg("\u30c8\u30c3\u30d4\u30f3\u30b0\uff081\u7a2e\u985e100\u5186\uff09",null,null,null,null)
+B.LP=new A.fg("\u5546\u54c1\u3092\u9078\u3076",null,null,null,null)
+B.LQ=new A.fg("\ud83c\udf58\u6ce8\u6587\u3059\u308b\ud83c\udf58",null,null,null,null)
 B.LR=new A.fg("\u7121\u6599\u30b5\u30fc\u30d3\u30b9",null,null,null,null)
 B.LS=new A.fg("\u30c7\u30b3\u30ec\u30fc\u30b7\u30e7\u30f3\uff081\u500b50\u5186\uff09",null,null,null,null)
 B.LT=new A.fg("\u30c7\u30b3\u6570",null,null,null,null)
