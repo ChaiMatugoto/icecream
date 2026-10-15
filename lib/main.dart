@@ -77,7 +77,7 @@ class _IcecreamAppState extends State<IcecreamApp> {
       ]);
     final supplies = Column(crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        supply('🛍️ 紙袋', spoon, (v) => spoon = v),
+        supply('🛍️ 紙袋(無料)', spoon, (v) => spoon = v),
         supply('🧻 紙ナプキン（無料）', napkin, (v) => napkin = v),
       ]);
          final bill = Column(children: [
